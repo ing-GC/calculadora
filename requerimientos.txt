@@ -1,0 +1,4 @@
+flake 8
+autopep8
+lettuce
+coverage
