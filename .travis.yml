@@ -11,3 +11,4 @@ script:
       - lettuce
       - cd ../pruebas_unitarias
 	- python CalculadoraTest.py
+  
