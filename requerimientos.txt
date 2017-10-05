@@ -1,4 +1,4 @@
-flake 8
+flake8
 autopep8
 lettuce
 coverage
