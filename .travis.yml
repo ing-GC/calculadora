@@ -10,3 +10,5 @@ script:
  - lettuce
  - cd ../pruebas_unitarias
  - python CalculadoraTest.py
+ - coverage run CalculadoraTest.py
+ - coverage html
