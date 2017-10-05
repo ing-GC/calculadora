@@ -1,13 +1,13 @@
 language: python
 python:
-	- 2.7
+ - 2.7
 install:
-	- pip install -r requerimientos.txt
+ - pip install -r requerimientos.txt
 before_script: 
-	- autopep -ir *
-	- flake8 --max-complexity=5 --exclude=*.txt,*.md
+ - autopep -ir *
+ - flake8 --max-complexity=5 --exclude=*.txt,*.md
 script: 
-      - cd lettuce
-      - lettuce
-      - cd ../pruebas_unitarias
-	- python CalculadoraTest.py
+ - cd lettuce
+ - lettuce
+ - cd ../pruebas_unitarias
+ - python CalculadoraTest.py
